@@ -1,0 +1,62 @@
+body{
+    background-color: #0A0908;
+    color: #E4DFD3;
+    margin: 0%;
+}
+.barra{
+    background-color: #171513;
+    margin: 0%;
+    padding: 10px;
+    min-width: 95vw;
+    height: 40px;
+}
+.img-principal{
+    justify-content: center;
+    min-width: 1210px;
+    height: 570px;
+    margin:0% 30px 20px 40px;
+
+}
+.demonstrativo{
+    background-color: rgb(145, 113, 175);
+    width: 100px;
+    height: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50vw 50px 50vw;
+}
+input{
+    margin-left: 35px;
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+}
+.bt,.bt-home,.bt-script,.bt-jogo,.bt-configuracao{
+    margin-top: 15px;
+    border: none;
+}
+.bt-home{
+    background-color: #171513;
+    color: #E4DFD3;
+    margin-left: 50px;
+}
+.bt-script{
+    background-color: #171513;
+    color: #E4DFD3;
+}
+.bt-jogo{
+    background-color: #171513;
+    color: #E4DFD3;
+}
+.bt-configuracao{
+    background-color: #171513;
+    color: #E4DFD3;
+    margin-left: 700px;
+}
+.pg-final{
+    background-color: #171513;
+    color: rgb(231, 242, 248);
+    min-width: 95vw;
+    height: 200px;
+}

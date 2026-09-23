@@ -1,7 +1,10 @@
 body{
+    zoom: 100%;
+    transform: scale(1);
     background-color: #0A0908;
     color: #E4DFD3;
     margin: 0%;
+    text-align: center;
 }
 .barra{
     background-color: #171513;
@@ -59,4 +62,41 @@ input{
     color: rgb(231, 242, 248);
     min-width: 95vw;
     height: 200px;
+}
+.carosel{
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    overflow-x: auto;
+}
+.carosel::-webkit-scrollbar{
+    display: none;
+}
+.grupo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    animation: spin 15s infinite linear;
+    padding-right: 1em;
+}
+.card{
+    flex: 0 0 5em;
+    height: 1em;
+    padding: 1em;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2px;
+    font-size: 3rem;
+    text-align: center;
+    align-content: center;
+    overflow: hidden;
+}
+@keyframes spin{
+    from {translate: 0;}
+    to {translate: -100%;}
+}
+.grid-container{
+    
 }

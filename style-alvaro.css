@@ -84,6 +84,7 @@ body{
     width: 300px;
     height: 350px;
     border-radius: 13px;
+    padding: 10px;
 }
 .listar{
     width: 170px;
@@ -100,6 +101,7 @@ body{
     width: 300px;
     height: 350px;
     border-radius: 13px;
+    padding: 10px;
 }
 .removerUltimo{
     width: 170px;
@@ -116,6 +118,7 @@ body{
     width: 300px;
     height: 350px;
     border-radius: 13px;
+    padding: 10px;
 }
 .deletar{
     width: 170px;
@@ -132,6 +135,7 @@ body{
     width: 300px;
     height: 350px;
     border-radius: 13px;
+    padding: 10px;
 }
 .card-boss{
     background: white;

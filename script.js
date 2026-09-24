@@ -80,23 +80,4 @@ function mostrarTudo(){
         texto += `ID: ${boss.id}\nNome: ${boss.nome}\nRegião: ${boss.regiao}\nArma: ${boss.arma}\n\n`
     }
     alert(texto)
-
-    let display = document.querySelector(".display")
-    display.innerHTML = ""
-
-    for(let i = 0; i < lista.lenght; i++){
-        let boss = lista[i]
-
-        let card = document.createElement("div")
-        card.classList.add("card-boss")
-
-        card.innerHTML = `
-        <p><strong>ID:</strong>${boss.id}</p>
-        <p><strong>NOME:</strong>${boss.nome}</p>
-        <p><strong>REGIAO:</strong>${boss.regiao}</p>
-        <p><strong>ARMA:</strong>${boss.arma}</p>
-        `
-        
-        display.appendiChild(card)
-    }
 }

@@ -91,3 +91,17 @@ body{
     from {translate: 0;}
     to {translate: -100%;}
 }
+
+.imgs-2 {
+justify-content: center;
+align-items: center;
+display: grid;
+width: 400px;
+height: 400px;
+padding: 20px;
+gap: 20px;
+}
+.imgs-2 ,img{
+width:150px ;
+height: 150px;
+}

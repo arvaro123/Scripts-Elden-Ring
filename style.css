@@ -29,12 +29,6 @@ body{
     align-items: center;
     margin: 50px 50vw 50px 50vw;
 }
-input{
-    margin-left: 35px;
-    border-radius: 5px;
-    border: none;
-    height: 20px;
-}
 .bt,.bt-home,.bt-script,.bt-jogo,.bt-configuracao{
     margin-top: 15px;
     border: none;
@@ -58,7 +52,7 @@ input{
     margin-left: 700px;
 }
 .pg-final{
-    background-color: #171513;
+    background-color: #0A0908;
     color: rgb(231, 242, 248);
     min-width: 95vw;
     height: 200px;
@@ -76,13 +70,13 @@ input{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1em;
-    animation: spin 15s infinite linear;
+    gap: 3em;
+    animation: spin 45s infinite linear;
     padding-right: 1em;
 }
 .card{
     flex: 0 0 5em;
-    height: 1em;
+    height: 2em;
     padding: 1em;
     background-size: cover;
     background-position: center;
@@ -97,6 +91,71 @@ input{
     from {translate: 0;}
     to {translate: -100%;}
 }
-.grid-container{
-    
+.bt-funcao{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: #171513;
+    min-width: 99vw;
+    height: vw;
+}
+.cadastrar{
+    width: 100px;
+    height: 40px;
+    background-color: #201e1b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -3.5px 3px 7px rgb(0, 0, 0.1);
+    color: azure;
+}
+.listar{
+    width: 100px;
+    height: 40px;
+    background-color: #201e1b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -3.5px 3px 7px rgb(0, 0, 0.1);
+    color: azure;
+}
+.removerUltimo{
+    width: 100px;
+    height: 40px;
+    background-color: #201e1b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -3.5px 3px 7px rgb(0, 0, 0.1);
+    color: azure;
+}
+.deletar{
+    width: 100px;
+    height: 40px;
+    background-color: #201e1b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -3.5px 3px 7px rgb(0, 0, 0.1);
+    color: azure;
+}
+input{
+    margin: 4.5px 5px auto 35px;
+    border-radius: 5px;
+    border: 3px solid rgba(255, 214, 33, 0.925);
+    background-color: rgb(227, 236, 144);
+    height: 25px;
+}
+.display{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 1em;
+    background: lightgray;
+    margin: 1em;
+    border-radius: .5em;
+}
+.card-boss{
+    background: white;
+    padding: 1em;
+    border-radius: .5em;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,0.2);
+    min-width: 200px;
 }

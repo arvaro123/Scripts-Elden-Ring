@@ -1,0 +1,142 @@
+body{
+    zoom: 100%;
+    transform: scale(1);
+    background-color: #0A0908;
+    color: #E4DFD3;
+    margin: 0%;
+    text-align: center;
+}
+.barra{
+    background-color: #171513;
+    margin: 0%;
+    padding: 10px;
+    min-width: 95vw;
+    height: 40px;
+}
+.img-principal{
+    justify-content: center;
+    min-width: 1210px;
+    height: 570px;
+    margin:0% 30px 20px 40px;
+
+}
+.demonstrativo{
+    background-color: rgb(145, 113, 175);
+    width: 100px;
+    height: 200px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50vw 50px 50vw;
+}
+.bt,.bt-home,.bt-script,.bt-jogo,.bt-configuracao{
+    margin-top: 15px;
+    border: none;
+}
+.bt-home{
+    background-color: #171513;
+    color: #E4DFD3;
+    margin-left: 50px;
+}
+.bt-script{
+    background-color: #171513;
+    color: #E4DFD3;
+}
+.bt-jogo{
+    background-color: #171513;
+    color: #E4DFD3;
+}
+.bt-configuracao{
+    background-color: #171513;
+    color: #E4DFD3;
+    margin-left: 700px;
+}
+.pg-final{
+    background-color: #0A0908;
+    color: rgb(231, 242, 248);
+    min-width: 95vw;
+    height: 200px;
+}
+.bt-funcao{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: #171513;
+    min-width: 20%;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-bottom: 40px;
+}
+.cadastrar{
+    width: 170px;
+    height: 50px;
+    background-color: #201e1b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -3.5px 3px 7px rgb(0, 0, 0.1);
+    color: azure;
+    font-size: 15px;
+}
+.cadastrar-1{
+    background-color: #201e1b;
+    width: 300px;
+    height: 350px;
+    border-radius: 13px;
+}
+.listar{
+    width: 170px;
+    height: 50px;
+    background-color: #201e1b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -3.5px 3px 7px rgb(0, 0, 0.1);
+    color: azure;
+    font-size: 15px;
+}
+.listar-2{
+    background-color: #201e1b;
+    width: 300px;
+    height: 350px;
+    border-radius: 13px;
+}
+.removerUltimo{
+    width: 170px;
+    height: 50px;
+    background-color: #201e1b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -3.5px 3px 7px rgb(0, 0, 0.1);
+    color: azure;
+    font-size: 15px;
+}
+.removerUltimo-3{
+     background-color: #201e1b;
+    width: 300px;
+    height: 350px;
+    border-radius: 13px;
+}
+.deletar{
+    width: 170px;
+    height: 50px;
+    background-color: #201e1b;
+    border: none;
+    border-radius: 5px;
+    box-shadow: -3.5px 3px 7px rgb(0, 0, 0.1);
+    color: azure;
+    font-size: 15px;
+}
+.deletar-4{
+    background-color: #201e1b;
+    width: 300px;
+    height: 350px;
+    border-radius: 13px;
+}
+.card-boss{
+    background: white;
+    padding: 1em;
+    border-radius: .5em;
+    box-shadow: 0 2px 5px rgb(0, 0, 0,0.2);
+    min-width: 200px;
+}

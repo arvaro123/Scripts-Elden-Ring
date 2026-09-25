@@ -66,7 +66,7 @@ body{
     background-color: rgb(218, 179, 108);
     color: #0A0908;
     transform: translateY( -5px);
-    box-shadow: -3.5px 3px 7px rgb(230, 219, 124);
+    box-shadow: -3.5px 3px 7px rgb(196, 193, 168);
 }
 .cadastrar-1{
     background-color: #201e1b;
@@ -86,7 +86,14 @@ body{
     border-radius: 5px;
     box-shadow: -3.5px 3px 7px rgb(0, 0, 0.1);
     color: azure;
+    transition: all 0.5s ease;
     font-size: 15px;
+}
+.listar:hover{
+    background-color: rgb(218, 179, 108);
+    color: #0A0908;
+    transform: translateY( -5px);
+    box-shadow: -3.5px 3px 7px rgb(196, 193, 168);
 }
 .listar-2{
     background-color: #201e1b;
@@ -106,7 +113,14 @@ body{
     border-radius: 5px;
     box-shadow: -3.5px 3px 7px rgb(0, 0, 0.1);
     color: azure;
+    transition: all 0.5s ease;
     font-size: 15px;
+}
+.removerUltimo:hover{
+    background-color: rgb(218, 179, 108);
+    color: #0A0908;
+    transform: translateY( -5px);
+    box-shadow: -3.5px 3px 7px rgb(196, 193, 168);
 }
 .removerUltimo-3{
      background-color: #201e1b;
@@ -126,7 +140,14 @@ body{
     border-radius: 5px;
     box-shadow: -3.5px 3px 7px rgb(0, 0, 0.1);
     color: azure;
+    transition: all 0.5s ease;
     font-size: 15px;
+}
+.deletar:hover{
+    background-color: rgb(218, 179, 108);
+    color: #0A0908;
+    transform: translateY( -5px);
+    box-shadow: -3.5px 3px 7px rgb(196, 193, 168);
 }
 .deletar-aa{
     background-color: #201e1b;

@@ -29,7 +29,7 @@ body{
     align-items: center;
     margin: 50px 50vw 50px 50vw;
 }
-.bt,.bt-home,.bt-script,.bt-jogo,.bt-configuracao{
+.bt-home{
     margin-top: 15px;
     border: none;
 }
@@ -37,25 +37,6 @@ body{
     background-color: #171513;
     color: #E4DFD3;
     margin-left: 50px;
-}
-.bt-script{
-    background-color: #171513;
-    color: #E4DFD3;
-}
-.bt-jogo{
-    background-color: #171513;
-    color: #E4DFD3;
-}
-.bt-configuracao{
-    background-color: #171513;
-    color: #E4DFD3;
-    margin-left: 700px;
-}
-.pg-final{
-    background-color: #0A0908;
-    color: rgb(231, 242, 248);
-    min-width: 95vw;
-    height: 200px;
 }
 .bt-funcao{
     display: flex;
@@ -79,6 +60,13 @@ body{
     box-shadow: -3.5px 3px 7px rgb(0, 0, 0.1);
     color: azure;
     font-size: 15px;
+    transition: all 0.5s ease;
+}
+.cadastrar:hover{
+    background-color: rgb(218, 179, 108);
+    color: #0A0908;
+    transform: translateY( -5px);
+    box-shadow: -3.5px 3px 7px rgb(230, 219, 124);
 }
 .cadastrar-1{
     background-color: #201e1b;

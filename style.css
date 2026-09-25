@@ -95,10 +95,11 @@ img{
     width: 300px;
     height: 200px;
     padding: 100px 30px 20px 30px;
+    
 }
 
 .barra-1{
-     box-shadow: 2.5px 1px 70px -4.5px #ced662;
+     box-shadow: 2.5px 1px 40px -4.5px #ced662;
     background-color: rgba(187, 183, 128, 0.514);
     color: rgba(163, 156, 103, 0.863);
     min-width: 98vw;
@@ -108,15 +109,23 @@ img{
 }
 
 .barra-2{
-     box-shadow: 2.5px 1px 70px -4.5px #ced662;
+     box-shadow: 2.5px 1px 40px -4.5px #ced662;
     background-color: rgba(187, 183, 128, 0.514);
     color: rgba(163, 156, 103, 0.863);
     min-width: 98vw;
 }
 
 .barra-3{
-    box-shadow: 2.5px 1px 70px -4.5px #ced662;
+    box-shadow: 2.5px 1px 40px -4.5px #ced662;
     background-color: rgba(187, 183, 128, 0.514);
     color: rgba(163, 156, 103, 0.863);
     min-width: 98vw;
 }
+
+    .imagem-borda{
+    border: 2px solid rgb(187, 183, 128, 0.514);
+    width: 350px;
+    height: 180;
+    margin: 76px 0px 30px 0px;
+    padding:0px;
+    }

@@ -98,20 +98,25 @@ img{
 }
 
 .barra-1{
-    background-color: rgb(	249,192,67);
-    color: black;
+     box-shadow: 2.5px 1px 70px -4.5px #ced662;
+    background-color: rgba(187, 183, 128, 0.514);
+    color: rgba(163, 156, 103, 0.863);
     min-width: 98vw;
-    box-shadow: inset d; 
+    
+
+
 }
 
 .barra-2{
-    background-color: rgb(	249,192,67);
-    color: black;
+     box-shadow: 2.5px 1px 70px -4.5px #ced662;
+    background-color: rgba(187, 183, 128, 0.514);
+    color: rgba(163, 156, 103, 0.863);
     min-width: 98vw;
 }
 
 .barra-3{
-    background-color: rgb(	249,192,67);
-    color: black;
+    box-shadow: 2.5px 1px 70px -4.5px #ced662;
+    background-color: rgba(187, 183, 128, 0.514);
+    color: rgba(163, 156, 103, 0.863);
     min-width: 98vw;
 }

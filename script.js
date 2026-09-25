@@ -28,35 +28,36 @@ let lista = []
 let contadorId = 1
 
 function adicionar(){
-    let nome = prompt("Nome do boss")
+    let nome = prompt("Nome do produto")
     if(nome === null || nome.trim() === "" ){
         alert("Operação cancelada!")
         return
     }
-    let regiao = prompt("Nome do boss")
-    if(regiao === null || regiao.trim() === "" ){
+    let valores = prompt("valor total")
+    if(valores === null || valores.trim() === "" ){
         alert("Operação cancelada!")
         return
     }
-    let arma = prompt("Nome do boss")
-    if(arma === null || arma.trim() === "" ){
+    let categoria = prompt("categoria do produto destaque")
+    if(categoria === null || categoria.trim() === "" ){
         alert("Operação cancelada!")
         return
     }
-   let boss = {
+   lista.push(nome)
+   contadorId++
+   alert("Nome adicionado com sucesso!")
+   mostrarTudo
+
+   let produto = {
     id: contadorId,
     nome: nome,
-    regiao: regiao,
-    arma: arma
+    valor: valores,
+    categoria: categoria
    }
-   lista.push(boss)
-   contadorId++
-   alert("Boss adicionado com sucesso!")
-   mostrarTudo
 }
 function removerUltimo(){
     if(lista.lenght === 0){
-        alert("A lista já está vazia!")
+        alert("Ultimo item removido!")
         return
     }
     lista.pop()
@@ -66,7 +67,7 @@ function removerUltimo(){
 function removerTodos(){
     lista.length = 0
     contadorId = 1
-    alert("Todos Foram Removidos")
+    alert("Todos items DELETADOS com sucesso!")
     mostrarTudo()
 }
 function mostrarTudo(){
@@ -74,10 +75,15 @@ function mostrarTudo(){
         alert("A lista esta vazia!")
         return
     }
-    let texto = ""
-    for(let i = 0; i < lista.lenght; i++){
-        let boss = lista[i]
-        texto += `ID: ${boss.id}\nNome: ${boss.nome}\nRegião: ${boss.regiao}\nArma: ${boss.arma}\n\n`
-    }
-    alert(texto)
+
+let mensagem = " Sua lista de produtos:\n\n"
+    
+    lista.forEach((produto, gerenciamento) => {
+        mensagem += `${gerenciamento + 1}. ID: ${produto.id}\n`
+        mensagem += `   Nome: R$ ${produto.nome}\n`
+        mensagem += `   Valor: ${produto.valor}\n`
+        mensagem += `   Categoria: ${produto.categoria}\n\n`
+    })
+    
+    alert(mensagem)
 }

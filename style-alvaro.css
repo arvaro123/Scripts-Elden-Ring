@@ -88,7 +88,7 @@ body{
     padding: 10px;
 }
 .cadastrar ,p{
-    margin-top: 40px;
+    margin-top: 15%;
 }
 .listar{
     width: 170px;
@@ -108,7 +108,7 @@ body{
     padding: 10px;
 }
 .listar ,p{
-    margin-top: 94px;
+    margin-top: 39%;
 }
 .removerUltimo{
     width: 170px;
@@ -128,7 +128,7 @@ body{
     padding: 10px;
 }
 .removerUltimo ,p{
-    margin-top: 58px;
+    margin-top: 24%;
 }
 .deletar{
     width: 170px;
@@ -140,7 +140,7 @@ body{
     color: azure;
     font-size: 15px;
 }
-.deletar-4{
+.deletar-aa{
     background-color: #201e1b;
     width: 300px;
     height: 350px;
